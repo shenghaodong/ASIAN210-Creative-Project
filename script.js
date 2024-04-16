@@ -1,8 +1,10 @@
+//Fixes Scaling on Mobile
 var siteWidth = 600;
 var scale = screen.width /siteWidth
 
 document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
 
+//Might not use (For Accordion)
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
