@@ -3,6 +3,25 @@ body{
     margin: 0;
 }
 
+button{
+    background-color: rgb(60, 254, 244);
+    border-color: rgb(60, 126, 240);
+    border-radius: 16px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    width: 220px;
+}
+button:hover{
+    background-color:rgb(0, 0, 0);
+    border-color: transparent;
+    border-radius: 16px;
+}
+
+.small-img{
+    width:400px;
+    height: auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -35,7 +54,7 @@ body{
 .accordion:hover{
     background-color: rgb(141, 99, 248);
     cursor: pointer;
-  }
+}
 
 
 .panel{
@@ -44,23 +63,4 @@ body{
     display: none;
     overflow: hidden;
     color: white;
-  }
-
-button{
-    background-color: rgb(60, 254, 244);
-    border-color: rgb(60, 126, 240);
-    border-radius: 16px;
-    margin-right: 25px;
-    margin-bottom: 35px;
-    width: 220px;
-  }
-button:hover{
-    background-color:rgb(0, 0, 0);
-    border-color: transparent;
-    border-radius: 16px;
-  }
-
-.small-img{
-    width:400px;
-    height: auto;
 }
